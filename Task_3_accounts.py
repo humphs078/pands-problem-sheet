@@ -10,12 +10,16 @@
 # Reference - https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input
 # above page last accessed 11/02/2023 - describes how to use a loop
 
-valid_input = False  # declare a Boolean variable
-while not valid_input:  # define while loop e.g. while the valid_input variable is True do the following
-    print("Please enter a 10 digit account number:")  # print statement
+# declare a Boolean variable
+valid_input = False
+
+# define while loop e.g. while the valid_input variable is True do the following
+while not valid_input:
+    print("Please enter a 10 digit account number: ")  # print statement
     ac_no = input()  # declare variable to capture input of statement above
-    if len(ac_no) == 10:  # if the length of the string is = 10 do the following
+    if len(ac_no) == 10 and ac_no.isnumeric() is True:  # if the length of the string is = 10 and the contents
+        # numeric do the following
         print(f"xxxxxx{ac_no[-4:]}")  # print statement to print the ac_no variable last 4 digits
         valid_input = True  # declare the valid_input variable to be true therefore the code stops
     else:  # else state - otherwise do this e.g. if the valid_input variable is false
-       print("Please enter a valid 10 digit bank account no")  # print this and loop back to line 15
+        print("That is not a valid 10 digit account number.")  # print this and loop back to line 15
