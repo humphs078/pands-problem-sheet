@@ -5,23 +5,17 @@
 # Assumptions:
 # - the account number has to be 10 numbers. It cannot be greater or less than 10 numbers in length.
 # - the account number can only contain numbers. It cannot contain letters.
+# - loop statements and the use of if and else statements are permitted in the script.
 
-# variable to input bank account no and convert to integer. If it is not an integer letters
-# can be entered into the account number
-account_no = int(input("Please enter a 10 digit bank account number: "))
+# Reference - https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input
+# above page last accessed 11/02/2023 - describes how to use a loop
 
-# variable to convert account number to a string to measure the length of the account number
-account_no_length = str(account_no)
-
-# if statement to print the account number with the first 6 digits masked as x if the account no is 10
-# digits long
-if len(account_no_length) == 10:
-    print(f"xxxxxx{account_no_length[-4:]}")
-
-# elif statement to ask for correct account no' length the account no' is longer than 10 numbers
-elif len(account_no_length) > 10:
-    print(f"The account number you have entered is longer than 10 characters. Please enter a valid account number.")
-
-# elif statement to ask for correct account no' length if the account no' is less than 10 numbers
-elif len(account_no_length) < 10:
-    print(f"The account number you have entered is less than 10 numbers. Please enter a valid account number.")
+valid_input = False  # declare a Boolean variable
+while not valid_input:  # define while loop e.g. while the valid_input variable is True do the following
+    print("Please enter a 10 digit account number:")  # print statement
+    ac_no = input()  # declare variable to capture input of statement above
+    if len(ac_no) == 10:  # if the length of the string is = 10 do the following
+        print(f"xxxxxx{ac_no[-4:]}")  # print statement to print the ac_no variable last 4 digits
+        valid_input = True  # declare the valid_input variable to be true therefore the code stops
+    else:  # else state - otherwise do this e.g. if the valid_input variable is false
+       print("Please enter a valid 10 digit bank account no")  # print this and loop back to line 15
