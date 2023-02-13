@@ -32,4 +32,4 @@ while not valid_input:
         print(masked_ac_no)  # print statement to print the ac_no variable last 4 digits and mask the rest
         valid_input = True  # declare the valid_input variable to be true therefore the code stops
     else:  # else state - otherwise do this e.g. if the valid_input variable is false
-        print("That is not a valid 10 digit account number.")  # print this and loop back to line 23
+        print("That is not  account number.")  # print this and loop back to line 23
