@@ -34,7 +34,7 @@ while not valid_input:
         valid_input = True  # declare the valid_input variable to be true therefore the code stops
     elif len(ac_no) <= 4 and ac_no.isnumeric() is True:  # if the account number is less than 4 digits print the
         # message in line 37
-        print(f"{masked_ac_no}\nIt is not possible to mask account numbers shorter than 5 digits.")
+        print(f"{masked_ac_no}\nIt is not possible to mask account numbers shorter than 5 digits long.")
         valid_input = True  # close the loop
     else:  # else state - otherwise do this e.g. if the valid_input variable is false
         print("That is not a valid account number. Account numbers cannot contain letters")  # print this and loop
