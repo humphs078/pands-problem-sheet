@@ -22,4 +22,4 @@ while not valid_input:
         print(f"xxxxxx{ac_no[-4:]}")  # print statement to print the ac_no variable last 4 digits
         valid_input = True  # declare the valid_input variable to be true therefore the code stops
     else:  # else state - otherwise do this e.g. if the valid_input variable is false
-        print("That is not a valid 10 digit account number.")  # print this and loop back to line 15
+        print("That is not a valid 10 digit account number.")  # print this and loop back to line 17
