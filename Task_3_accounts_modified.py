@@ -28,8 +28,14 @@ while not valid_input:
     mask = ac_no_mask * "x"  # variable to define the mask to precede the last 4 digits of the
     # account number
     masked_ac_no = mask + ac_no[-4:]  # variable to define the masked account number
-    if ac_no.isnumeric() is True:  # if the account number input contains only numbers do the following
+    if ac_no.isnumeric() is True and len(ac_no) > 4:  # if the account number input contains only numbers
+        # and is greater than 4 characters do the following
         print(masked_ac_no)  # print statement to print the ac_no variable last 4 digits and mask the rest
         valid_input = True  # declare the valid_input variable to be true therefore the code stops
+    elif len(ac_no) <= 4 and ac_no.isnumeric() is True:  # if the account number is less than 4 digits print the
+        # message in line 37
+        print(f"{masked_ac_no}\nIt is not possible to mask account numbers shorter than 5 digits.")
+        valid_input = True  # close the loop
     else:  # else state - otherwise do this e.g. if the valid_input variable is false
-        print("That is not  account number.")  # print this and loop back to line 23
+        print("That is not a valid account number. Account numbers cannot contain letters")  # print this and loop
+        # back to line 23
