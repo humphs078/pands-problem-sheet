@@ -8,30 +8,33 @@
 # can be read in by the user
 
 # Reference 2: https://hackernoon.com/implementing-3x1-in-python Accessed 18/02/2023
-# used in line 24 to create while loop to iterate list containing the Collatz sequence
+# used in line 28 to create while loop to iterate list containing the Collatz sequence
 
 # Reference 3: https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
-# Accessed 18/02/2023. Used in line 30 of script to print list without brackets or commas
+# Accessed 18/02/2023. Used in line 34 of script to print list without brackets or commas
 
 # Reference 4:  https://stackoverflow.com/questions/25733737/how-to-print-out-a-string-and-list-in-one-line-python
-# accessed 18/02/2023 - used for print statement in line 33 of script
+# accessed 18/02/2023 - used for print statement in line 34 of script
 
-valid_input = False
-while not valid_input:
-    num = int(input("Please enter a positive integer: "))
-    if num == 1:
-        print(f"The Collatz sequence for {num} is 4 2 1 ")
-        break
-    else:
-        if num > 0:
-            sequence = [num]
-            while (num != 1):
-                if ((num % 2) == 0):
-                    num = num // 2
-                else:
-                    num = (num * 3) + 1
-                sequence.append(num)
-            print(f"The collatz sequence for {sequence[0]} is", *sequence[1:], sep=" ")
-            valid_input = True
+valid_input = False  # declare variable for while loop
+while not valid_input:  # while loop to script executes when only a positive integer is read in
+    num = int(input("Please enter a positive integer: "))  # read in text
+    if num == 1:  # could not find a sample code for the Collatz sequence to allow for 1 to be read in by the user is
+        # if statement used to solve this issue
+        print(f"The Collatz sequence for {num} is 4 2 1 ")  # print this if 1 is read in by user
+        break  # end script operation here if 1 is read in by user
+    else:  # otherwise
+        if num > 0:  # if the variable num that is read in is greater than 0 execute the following lines of code
+            sequence = [num]  # declare variable called sequence to create a list populated by the num variable
+            while num != 1:  # while loop when the num variable does not equal 1
+                if (num % 2) == 0:  # if statement with calculation to see if the num variable is even
+                    num = num // 2  # calculation to declare the value of the num variable if num is even
+                else:  # otherwise execute the following lines of code
+                    num = (num * 3) + 1  # calculation to declare the value of the num variable if num is odd
+                sequence.append(num)  # add the num variable to the list called sequence
+            print(f"The collatz sequence for {sequence[0]} is", *sequence[1:], sep=" ")  # once loop is closed and the
+            # value of the num variable reaches 1 print the following statement
+            valid_input = True  # close while loop
         else:
-            print(f"{num} is not a positive integer.")
+            print(f"{num} is not a positive integer.")  # statement to print if 0 or negative integer is entered. Loops
+            # the user back to the original read in statement
