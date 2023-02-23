@@ -16,10 +16,13 @@
 # Reference 4:  https://stackoverflow.com/questions/25733737/how-to-print-out-a-string-and-list-in-one-line-python
 # accessed 18/02/2023 - used for print statement in line 34 of script
 
-valid_input = False  # declare variable for while loop
-while not valid_input:  # while loop to script executes when only a positive integer is read in
+# declare variable for while loop
+valid_input = False
+
+# while loop to script executes when only a positive integer is read in
+while not valid_input:
     num = int(input("Please enter a positive integer: "))  # read in text
-    if num == 1:  # could not find a sample code for the Collatz sequence to allow for 1 to be read in by the user is
+    if num == 1:  # could not find a sample code for the Collatz sequence to allow for 1 to be read in by the user
         # if statement used to solve this issue
         print(f"The Collatz sequence for {num} is 4 2 1 ")  # print this if 1 is read in by user
         break  # end script operation here if 1 is read in by user
