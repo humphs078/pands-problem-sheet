@@ -21,8 +21,7 @@ valid_input = False
 
 # define while loop e.g. while the valid_input variable is True do the following
 while not valid_input:
-    print("Please enter an account number: ")  # print statement
-    ac_no = input()  # declare variable to capture input of statement above
+    ac_no= input("Please enter an account number: ")  # declare variable to capture input of statement string
     ac_no_len = len(ac_no)  # declare variable for account no length
     ac_no_mask = ac_no_len - 4  # declare variable for the length of the required mask
     mask = ac_no_mask * "x"  # variable to define the mask to precede the last 4 digits of the
