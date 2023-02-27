@@ -2,7 +2,7 @@
 # Author: Sean Humphreys
 # Script that that outputs whether or not today is a weekday.
 
-# Reference 1 - https://pynative.com/python-get-the-day-of-week/ Accessed 22/02/2023
+# Reference - https://pynative.com/python-get-the-day-of-week/ Accessed 22/02/2023
 
 # from the datetime module import datetime
 from datetime import datetime
