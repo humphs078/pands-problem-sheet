@@ -47,3 +47,17 @@ Reference 4:  https://stackoverflow.com/questions/25733737/how-to-print-out-a-st
 Week 5 task - Script to read out a message indicating if today is a weekday or the weekend
 
 Reference - https://pynative.com/python-get-the-day-of-week/ last accessed 22/02/2023
+
+### task_6_square_root.py
+Week 6 task - Script to return the square root of a number using Newton's method
+
+In numerical analysis, Newton's method, also known as the Newton–Raphson method, named after Isaac Newton and
+Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots
+(or zeroes) of a real-valued function - https://en.wikipedia.org/wiki/Newton%27s_method Last Accessed 02/03/2023
+
+Reference 1: https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx
+ Last accessed 02/03/2023
+
+Reference 2:
+https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+Last accessed 02/03/2023
