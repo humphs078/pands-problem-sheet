@@ -3,7 +3,7 @@
 # Script to read in a bank account number display only the last 4 digits and mask the rest
 
 # - the term mask in the commentary below refers to the portion of the account no to be hidden
-# by the character "x"
+# by the character "x.py"
 
 # Assumptions:
 # - the last 4 digits will always be displayed regardless of the account number length
@@ -24,7 +24,7 @@ while not valid_input:
     ac_no= input("Please enter an account number: ")  # declare variable to capture input of statement string
     ac_no_len = len(ac_no)  # declare variable for account no length
     ac_no_mask = ac_no_len - 4  # declare variable for the length of the required mask
-    mask = ac_no_mask * "x"  # variable to define the mask to precede the last 4 digits of the
+    mask = ac_no_mask * "x.py"  # variable to define the mask to precede the last 4 digits of the
     # account number
     masked_ac_no = mask + ac_no[-4:]  # variable to define the masked account number
     if ac_no.isnumeric() is True and len(ac_no) > 4:  # if the account number input contains only numbers
