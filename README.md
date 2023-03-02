@@ -35,7 +35,8 @@ The output has a euro sign in front of the total. Euros and cents are separated 
 Reflection - Challenge was to print euro total to 2 decimal places as a result of formatting.
 [Solution 1](http://programarcadegames.com/index.php?chapter=formatting&lang=en) (last accessed 02/02/2023) was found 
 here. That solution was later commented out and the following format string 
-[solution 2](https://java2blog.com/format-a-float-to-two-decimal-places/) was implemented in line 24 of code 
+[solution 2](https://java2blog.com/format-a-float-to-two-decimal-places/) (last accessed 02/03/2023) 
+was implemented in line 24 of code.
 - - - -
 
 ### [Task 3 - Accounts](task_3_accounts.py)
