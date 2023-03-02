@@ -1,18 +1,31 @@
 # pands-problem-sheet
 
+## Description
+This repository contains the solutions to the weekly tasks for the Programming and Scripting module on the ATU Mayo Galway H Dip in Computer Programming and Data Analytics.
 
-### task_1_helloworld.py 
+## Menu
+[Scripts](#Scripts)
+1. [task_1_helloworld.py](#task_1_helloworld.py])
+
+2. [task_2_bank.py](#task_2_bank.py)
+
+3. [task_3_accounts.py](###task_3_accounts.py)
+
+
+## Scripts
+
+### task_1_helloworld.py (task_1_helloworld.py)
 
 Week 1 task - script to print "Hello World!" string in bold
 
 Reference - https://blog.finxter.com/how-to-print-bold-text-in-python/ last accessed 23/02/2023
 
 
-### task_2_bank.py 
+### [task_2_bank.py ](task_2_bank.py)
 
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human readable format. The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
-Reference - http://programarcadegames.com/index.php?chapter=formatting&lang=en accessed last  02/02/2023.
+Reference - http://programarcadegames.com/index.php?chapter=formatting&lang=en last accessed 02/02/2023.
 
 
 ### task_3_accounts.py
