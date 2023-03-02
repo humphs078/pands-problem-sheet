@@ -32,7 +32,9 @@ Week 1 Task - script to print **"Hello World!"** string in bold.
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
-[Reference](http://programarcadegames.com/index.php?chapter=formatting&lang=en) - Last accessed 02/02/2023.
+Reflection - Challenge was to print euro total to 2 decimal places as a result of formatting.
+[Solution](http://programarcadegames.com/index.php?chapter=formatting&lang=en) (last accessed 02/02/2023) was found 
+here.
 - - - -
 
 ### [Task 3 - Accounts](task_3_accounts.py)
