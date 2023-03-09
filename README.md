@@ -32,7 +32,7 @@ Week 1 Task - script to print **"Hello World!"** string in bold.
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human-readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
-Reflection - Challenge was to print euro total to 2 decimal places as a result of formatting.
+**Reflection** - Challenge was to print euro total to 2 decimal places as a result of formatting.
 [Solution 1](http://programarcadegames.com/index.php?chapter=formatting&lang=en) (last accessed 02/02/2023) was found 
 here. That solution was later commented out and the following format string 
 [solution 2](https://java2blog.com/format-a-float-to-two-decimal-places/) (last accessed 02/03/2023) 
@@ -42,6 +42,17 @@ was implemented in line 24 of code.
 ### [Task 3 - Accounts](task_3_accounts.py)
 
 Week 3 Task - Script to read in a bank account number display only the last 4 digits and mask the rest.
+
+Assumptions:
+
++ the account number has to be 10 numbers. It cannot be greater or less than 10 numbers in length.
++ the account number can only contain numbers. It cannot contain letters.
++ loop statements and the use of if and else statements are permitted in the script.
+
+**Reflection** - the challenge was to create the code so that the user could only enter a 10 digit number. The 
+[solution](https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input), 
+last accessed 11/02/2023, was to implement a "while loop" so that if the user enters anything but a 10 digit number the
+code loops back and instructs the user that what they have entered is not valid and to re-enter a valid input.
 
 [Reference](https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input) - 
 Last accessed 11/02/2023 
