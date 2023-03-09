@@ -100,24 +100,23 @@ Last accessed 02/03/2023
 - - - -
 ### [Task 7 - Count of the letter **e**](task_7_es.py)
 Week 7 task - Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
-from the command line. The read in file is passed in as an argument from the command line 
-e.g. python task_7_es.py some_file.txt
+from the command line as an argument e.g. python task_7_es.py some_file.txt
 
 
 Assumptions:
 
-+ The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
-in line 39 of the code
-+ The .txt file will be stored in the same directory as the task_7_es.py script
++ The user wants to count the letter "e" in the given text file. The letter can be changed by changing the argument
+in line 39 of the code.xxxxxxxxx
++ The .txt file will be stored in the same directory as the task_7_es.py script.
 
 [Reference 1](https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python) - 
-last accessed 09/03/2023
+Last accessed 09/03/2023
 
-[Reference 2](https://www.geeksforgeeks.org/python-sys-module/) - last accessed 09/03/2023
+[Reference 2](https://www.geeksforgeeks.org/python-sys-module/) - Last accessed 09/03/2023
 
-[Reference 3](https://www.tutorialspoint.com/python/python_command_line_arguments.htm#) - last accessed 09/03/2023
+[Reference 3](https://www.tutorialspoint.com/python/python_command_line_arguments.htm#) - Last accessed 09/03/2023
 
 [Reference 4](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) - 
-last accessed 09/03/2023
+Last accessed 09/03/2023
 
 ---

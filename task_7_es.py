@@ -15,7 +15,7 @@
 
 # Assumptions:
 # The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
-# in line 39 of the code
+# in line 40 of the code
 # The .txt file will be stored in the same directory as the task_7_es.py script
 
 # import the system module
@@ -27,13 +27,13 @@ file = sys.argv[1]
 
 
 # function to read in the contents of the text file and count the number of times the letter "e" appears
-def no_of_letters(letter):  # argument letters variable. Can be changed to a different value - see line 39
+def no_of_letters(letter):  # argument letters variable. Can be changed to a different value - see line 40
     with open(sys.argv[1], 'r') as f:   # open the file passed in as an argument from the command line in read only mode
         # as variable f
         contents = f.read()     # declare a variable called "contents" that reads in the contents of the file
-        # in variable "f" in line 30
+        # in variable "f" in line 31
     return contents.count(letter)   # return the count of the letter passed in the argument of the function this can be
-    # set in line 39 of code
+    # set in line 40 of code
 
 
 # Declare variable to count the letter passed in the argument, in this case "e". Can be changed if required
