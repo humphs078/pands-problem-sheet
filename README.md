@@ -12,7 +12,7 @@
 5. [Week 4 - Collatz](#Task-4---Collatz)
 6. [Week 5 - Weekday](#Task-5---Weekday)
 7. [Week 6 - Square Root](#Task-6---Square-Root)
-
+8. [Week 7 - Count of the Letter "e" in a txt File](#Task 6 Count of the letter "e")
 ## Description
 This repository contains the solutions to the weekly tasks for the Programming and Scripting module on the ATU 
 Mayo Galway H Dip in Computer Programming and Data Analytics.
@@ -98,3 +98,4 @@ Last accessed 02/03/2023
 [Reference 2](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo) - 
 Last accessed 02/03/2023
 - - - -
+### [Task 6 Count of the letter "e"]
