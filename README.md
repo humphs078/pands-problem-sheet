@@ -12,7 +12,7 @@
 5. [Week 4 - Collatz](#Task-4---Collatz)
 6. [Week 5 - Weekday](#Task-5---Weekday)
 7. [Week 6 - Square Root](#Task-6---Square-Root)
-8. [Week 7 - Count of the Letter "e" in a txt File](#Task 6 Count of the letter "e")
+8. [Week 7 - Count of the Letter "e" in a txt File](#Task-7---Count-of-the-letter-e)
 ## Description
 This repository contains the solutions to the weekly tasks for the Programming and Scripting module on the ATU 
 Mayo Galway H Dip in Computer Programming and Data Analytics.
@@ -29,7 +29,7 @@ Week 1 Task - script to print **"Hello World!"** string in bold.
 
 ### [Task 2 - Bank](task_2_bank.py)
 
-Week 2 task - script to enter two amounts in cents, add them and print out the total in human readable format.
+Week 2 task - script to enter two amounts in cents, add them and print out the total in human-readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
 Reflection - Challenge was to print euro total to 2 decimal places as a result of formatting.
@@ -98,5 +98,25 @@ Last accessed 02/03/2023
 [Reference 2](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo) - 
 Last accessed 02/03/2023
 - - - -
-### [Task 7 Count of the letter "e"](task_7_es.py)
-Week 7 task - 
+### [Task 7 - Count of the letter e](task_7_es.py)
+Week 7 task - Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
+from the command line. The read in file is passed in as an argument from the command line 
+e.g. python task_7_es.py some_file.txt
+
+
+Assumptions:
+
++ The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
+in line 39 of the code
++ The .txt file will be stored in the same directory as the task_7_es.py script
+
+[Reference 1](https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python) - 
+last accessed 09/03/2023
+
+[Reference 2](https://www.geeksforgeeks.org/python-sys-module/) - last accessed 09/03/2023
+
+[Reference 3](https://www.tutorialspoint.com/python/python_command_line_arguments.htm#) - last accessed 09/03/2023
+
+[Reference 4](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) - 
+last accessed 09/03/2023
+---
