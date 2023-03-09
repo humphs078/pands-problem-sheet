@@ -54,8 +54,6 @@ Assumptions:
 last accessed 11/02/2023, was to implement a "while loop" so that if the user enters anything but a 10 digit number the
 code loops back and instructs the user that what they have entered is not valid and to re-enter a valid input.
 
-[Reference](https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input) - 
-Last accessed 11/02/2023 
 - - - -
 
 ### [Task 3a - Accounts Modified](task_3_accounts_modified.py)
