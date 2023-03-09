@@ -1,6 +1,7 @@
 # task_7_es.py
 # Author: Sean Humphreys
-# Script to read count the number of times the letter "e" appears in a text file
+# Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
+# from the command line
 
 # Reference 1 - https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
 # last accessed 09/03/2023
