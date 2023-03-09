@@ -106,7 +106,7 @@ from the command line as an argument e.g. python task_7_es.py some_file.txt
 Assumptions:
 
 + The user wants to count the letter "e" in the given text file. The letter can be changed by changing the argument
-in line 39 of the code.xxxxxxxxx
+in line 40 of the code.
 + The .txt file will be stored in the same directory as the task_7_es.py script.
 
 [Reference 1](https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python) - 
