@@ -98,7 +98,7 @@ Last accessed 02/03/2023
 [Reference 2](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo) - 
 Last accessed 02/03/2023
 - - - -
-### [Task 7 - Count of the letter e](task_7_es.py)
+### [Task 7 - Count of the letter **e**](task_7_es.py)
 Week 7 task - Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
 from the command line. The read in file is passed in as an argument from the command line 
 e.g. python task_7_es.py some_file.txt
