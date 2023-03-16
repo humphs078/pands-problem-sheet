@@ -20,7 +20,7 @@ Mayo Galway H Dip in Computer Programming and Data Analytics.
 
 ## Scripts
 - - - -
-### [Task 1 - Hello World](task_1_hello_world.py)
+### [Task 1 - Hello World](hello_world.py)
 
 Week 1 Task - script to print **"Hello World!"** string in bold.
 
