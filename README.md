@@ -91,7 +91,7 @@ Last accessed 18/02/2023
 Last accessed 18/02/2023
 - - - -
 
-### [Task 5 - Weekday](task_5_weekday.py)
+### [Task 5 - Weekday](weekday.py)
 
 Week 5 task - Script to read out a message indicating if today is a weekday or the weekend.
 
