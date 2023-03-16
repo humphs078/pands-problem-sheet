@@ -66,7 +66,7 @@ for account numbers greater than 4 digits in length.
 Last accessed 11/02/2023
 - - - -
 
-### [Task 4 - Collatz](task_4_collatz.py)
+### [Task 4 - Collatz](collatz.py)
 
 Week 4 task - Script to read out the Collatz sequence for any positive integer the user reads in.
 

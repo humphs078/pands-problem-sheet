@@ -1,4 +1,4 @@
-# task_4_collatz.py
+# collatz.py
 # Author: Sean Humphreys
 # Script to read in a positive integer and print the collatz sequence for that number
 # used to create while loop to ensure only a positive integer can be read in
