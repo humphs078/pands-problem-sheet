@@ -57,7 +57,7 @@ code loops back and instructs the user that what they have entered is not valid 
 
 - - - -
 
-### [Task 3a - Accounts Modified](task_3_accounts_modified.py)
+### [Task 3a - Accounts Modified](accounts_modified.py)
 
 Week 3 task - Script to read in bank account number of any length and display the last 4 digits of the account number 
 for account numbers greater than 4 digits in length.
