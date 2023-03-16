@@ -1,4 +1,4 @@
-# task_3_accounts.py
+# accounts.py
 # Author: Sean Humphreys
 # Script to read in a bank account number display only the last 4 digits and mask the rest
 

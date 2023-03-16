@@ -40,7 +40,7 @@ here. That solution was later commented out and the following format string
 was implemented in line 24 of code.
 - - - -
 
-### [Task 3 - Accounts](task_3_accounts.py)
+### [Task 3 - Accounts](accounts.py)
 
 Week 3 Task - Script to read in a bank account number display only the last 4 digits and mask the rest.
 
