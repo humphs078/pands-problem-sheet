@@ -37,7 +37,7 @@ font1 = {'family': 'serif', 'color': '#6495ED', 'size': 20}
 font2 = {'family': 'serif', 'color': '#9932CC', 'size': 10}
 x_axis = np.array(x_axis_list)  # variable with array for x-axis
 y_axis = np.array(plot_func())  # variable with array for y-axis
-plt.hist(random_numbers, color="#000000")  # plot histogram with black colour
+plt.hist(random_numbers, color="#A9A9A9")  # plot histogram with black colour
 plt.plot(x_axis, y_axis, color='#006400', linewidth='2')  # plot line with green colour and width 2
 plt.grid(color='#8A2BE2', linewidth="0.1")  # plot a black light blue with line width 0.1
 plt.title("Week 8 Task - plottask.py", fontdict=font1)  # display title with font 1 formatting
