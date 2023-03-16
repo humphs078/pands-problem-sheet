@@ -33,7 +33,7 @@ Week 1 Task - script to print **"Hello World!"** string in bold.
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human-readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
-**Reflection** - Challenge was to print euro total to 2 decimal places as a result of formatting.
+**Reflection** - The challenge was to print euro total to 2 decimal places as a result of formatting.
 [Solution 1](http://programarcadegames.com/index.php?chapter=formatting&lang=en) (last accessed 02/02/2023) was found 
 here. That solution was later commented out and the following format string 
 [solution 2](https://java2blog.com/format-a-float-to-two-decimal-places/) (last accessed 02/03/2023) 
@@ -74,6 +74,11 @@ Named after mathematician Lothar Collatz, the Collatz conjecture asks whether re
 operations will eventually transform every positive integer into 1 
 [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) (last accessed 02/03/2023).
 
+**Reflection** - The challenge was if a user read in a value of 1. No function or script could be found to mitigate 
+against this so a crude solution was implemented in lines 25 - 28 of the script. If the integer 1 is read in there is 
+only 1 possible thus the overhead of three additional lines of code was considered justified for the sake of 
+completeness.
+
 [Reference 1](https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input) -
 Last accessed 11/02/2023
 
@@ -92,6 +97,9 @@ Week 5 task - Script to read out a message indicating if today is a weekday or t
 
 This script was tested on both a **weekday and weekend** to ensure that the output was correct.
 
+**Reflection** - the challenge was that the days of the week are outputted as integer values. An "if" statement was used 
+to translate the day of the week to out a string indicating if it is a weekday or the weekend 
+
 [Reference](https://pynative.com/python-get-the-day-of-week/) - Last accessed 22/02/2023
 - - - -
 ### [Task 6 - Square Root](task_6_square_root.py)
@@ -101,6 +109,9 @@ In numerical analysis, Newton's method, also known as the Newton–Raphson metho
 Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots
 (or zeroes) of a real-valued function - [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_method) 
 (last accessed 02/03/2023).
+
+**Reflection** - the precision of the output was the challenge. Precision was achieved by the use of a "for" loop
+iterating 100 times within a function.
 
 [Reference 1](https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx) -
 Last accessed 02/03/2023
@@ -119,6 +130,10 @@ Assumptions:
 in line 40 of the code.
 + The .txt file will be stored in the same directory as the task_7_es.py script.
 
+**Reflection** - The challenge was running the script from the command line with the desired text file being read in as
+a command line argument. This was solved by using sys library and using the sys.argv[1] in a global variable. The use 
+of global variables in functions is not encouraged however is justified in this use case.
+
 [Reference 1](https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python) - 
 Last accessed 09/03/2023
 
@@ -134,6 +149,9 @@ Last accessed 09/03/2023
 
 Week 8 task - Script called plottask.py that displays a histogram of a normal distribution of 1000 values with a mean
 of 5 and standard deviation of 2 and a plot of the function  h(x)=x3 in the range [0, 10] on the one set of axes.
+
+**Reflection** - The challenge was formatting the outputted plot chart in a presentable way that is easily read. The 
+solution was to implement a number of font and plot formatting options in the code. 
 
 [Reference 1](https://www.w3schools.com/python/numpy/numpy_random_normal.asp) last accessed 16/03/2023
 
