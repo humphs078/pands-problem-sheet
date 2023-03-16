@@ -41,6 +41,6 @@ plt.hist(random_numbers, color="#A9A9A9")  # plot histogram with black colour
 plt.plot(x_axis, y_axis, color='#006400', linewidth='2')  # plot line with green colour and width 2
 plt.grid(color='#8A2BE2', linewidth="0.1")  # plot a black light blue with line width 0.1
 plt.title("Week 8 Task - plottask.py", fontdict=font1)  # display title with font 1 formatting
-plt.xlabel("Number", fontdict=font2)  # display x-axis label with font 2 formatting
-plt.ylabel("Number Cube", fontdict=font2)  # display y-axis with font 2 formatting
+plt.xlabel("X Number", fontdict=font2)  # display x-axis label with font 2 formatting
+plt.ylabel("Frequency / X Number Cube", fontdict=font2)  # display y-axis with font 2 formatting
 plt.show()  # command to show plot
