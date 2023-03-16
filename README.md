@@ -28,7 +28,7 @@ Week 1 Task - script to print **"Hello World!"** string in bold.
 [Reference](https://blog.finxter.com/how-to-print-bold-text-in-python/) - Last accessed 23/02/2023
 - - - -
 
-### [Task 2 - Bank](task_2_bank.py)
+### [Task 2 - Bank](bank.py)
 
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human-readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.

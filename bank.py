@@ -1,4 +1,4 @@
-# task_2_bank.py
+# bank.py
 # Author: Sean Humphreys
 # Script for adding cents and putting Euro - Task 2
 
