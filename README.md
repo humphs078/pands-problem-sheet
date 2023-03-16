@@ -13,6 +13,7 @@
 6. [Week 5 - Weekday](#Task-5---Weekday)
 7. [Week 6 - Square Root](#Task-6---Square-Root)
 8. [Week 7 - Count of the Letter "e" in a txt File](#Task-7---Count-of-the-letter-e)
+9. [Week 8 - Plotting](#task-8---plotting)
 ## Description
 This repository contains the solutions to the weekly tasks for the Programming and Scripting module on the ATU 
 Mayo Galway H Dip in Computer Programming and Data Analytics.
@@ -49,9 +50,9 @@ Assumptions:
 + the account number can only contain numbers. It cannot contain letters.
 + loop statements and the use of if and else statements are permitted in the script.
 
-**Reflection** - the challenge was to create the code so that the user could only enter a 10 digit number. The 
+**Reflection** - the challenge was to create the code so that the user could only enter a 10-digit number. The 
 [solution](https://stackoverflow.com/questions/25457923/how-to-make-python-goto-a-previous-line-to-get-more-input), 
-last accessed 11/02/2023, was to implement a "while loop" so that if the user enters anything but a 10 digit number the
+last accessed 11/02/2023, was to implement a "while loop" so that if the user enters anything but a 10-digit number the
 code loops back and instructs the user that what they have entered is not valid and to re-enter a valid input.
 
 - - - -
@@ -127,5 +128,19 @@ Last accessed 09/03/2023
 
 [Reference 4](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) - 
 Last accessed 09/03/2023
+
+---
+### [Task 8 - Plotting](task_8_plottask.py)
+
+Week 8 task - Script called plottask.py that displays a histogram of a normal distribution of 1000 values with a mean
+of 5 and standard deviation of 2 and a plot of the function  h(x)=x3 in the range [0, 10] on the one set of axes.
+
+[Reference 1](https://www.w3schools.com/python/numpy/numpy_random_normal.asp) last accessed 16/03/2023
+
+[Reference 2](https://www.w3schools.com/python/matplotlib_intro.asp) last accessed 16/03/2023
+
+[Reference 3](https://www.w3schools.com/python/matplotlib_labels.asp) last accessed 16/03/2023
+
+[Reference 4](https://www.w3schools.com/colors/colors_names.asp) last accessed 16/03/2023
 
 ---
