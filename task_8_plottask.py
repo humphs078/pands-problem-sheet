@@ -4,7 +4,11 @@
 # a histogram of a normal distribution of 1000 values with a mean of 5 and standard deviation of 2,
 # and a plot of the function  h(x)=x3 in the range [0, 10],
 # on the one set of axes.
-# Reference 1:
+# Reference 1: https://www.w3schools.com/python/numpy/numpy_random_normal.asp last accessed 16/03/2023
+# Reference 2: https://www.w3schools.com/python/matplotlib_intro.asp last accessed 16/03/2023
+# Reference 3: https://www.w3schools.com/python/matplotlib_labels.asp last accessed 16/03/2023
+# Reference 4: https://www.w3schools.com/colors/colors_names.asp last accessed 16/03/2023
+
 import numpy as np  # import the numpy module as np
 from numpy import random  # from the numpy package import the random module
 import matplotlib.pyplot as plt  # import the matplotlib.pyplot as plt
