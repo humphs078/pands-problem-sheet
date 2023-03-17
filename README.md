@@ -121,7 +121,7 @@ Last accessed 02/03/2023
 - - - -
 ### [Task 7 - Count of the letter **e**](es.py)
 Week 7 task - Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
-from the command line as an argument e.g. python task_7_es.py some_file.txt
+from the command line as an argument e.g. es.py some_file.txt
 
 
 Assumptions:
