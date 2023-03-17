@@ -128,7 +128,7 @@ Assumptions:
 
 + The user wants to count the letter "e" in the given text file. The letter can be changed by changing the argument
 in line 40 of the code.
-+ The .txt file will be stored in the same directory as the task_7_es.py script.
++ The .txt file will be stored in the same directory as the es.py script.
 
 **Reflection** - The challenge was running the script from the command line with the desired text file being read in as
 a command line argument. This was solved by using sys library and using the sys.argv[1] in a global variable. The use 
