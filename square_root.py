@@ -1,4 +1,4 @@
-# task_6_square_root.py
+# square_root.py
 # Author: Sean Humphreys
 # Script to return the square root of a number using Newton's method
 

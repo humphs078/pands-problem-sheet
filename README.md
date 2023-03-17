@@ -102,7 +102,7 @@ to translate the day of the week to out a string indicating if it is a weekday o
 
 [Reference](https://pynative.com/python-get-the-day-of-week/) - Last accessed 22/02/2023
 - - - -
-### [Task 6 - Square Root](task_6_square_root.py)
+### [Task 6 - Square Root](square_root.py)
 Week 6 task - Script to return the square root of a number using Newton's method.
 
 In numerical analysis, Newton's method, also known as the Newton–Raphson method, named after Isaac Newton and
