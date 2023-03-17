@@ -1,4 +1,4 @@
-# task_7_es.py
+# es.py
 # Author: Sean Humphreys
 # Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
 # from the command line
@@ -16,7 +16,7 @@
 # Assumptions:
 # The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
 # in line 40 of the code
-# The .txt file will be stored in the same directory as the task_7_es.py script
+# The .txt file will be stored in the same directory as the es.py script
 
 # import the system module
 import sys
