@@ -3,7 +3,7 @@
 # Script to read in a bank account number display only the last 4 digits and mask the rest
 
 # - the term mask in the commentary below refers to the portion of the account no to be hidden
-# by the character "x.py"
+# by the character "x"
 
 # Assumptions:
 # - the last 4 digits will always be displayed regardless of the account number length
