@@ -1,4 +1,4 @@
-# task_8_plottask.py
+# plottask.py
 # Author: Sean Humphreys
 # Script called plottask.py that displays:
 # a histogram of a normal distribution of 1000 values with a mean of 5 and standard deviation of 2,
