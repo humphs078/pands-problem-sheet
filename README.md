@@ -148,10 +148,16 @@ Last accessed 09/03/2023
 ### [Task 8 - Plotting](plottask.py)
 
 Week 8 task - Script called plottask.py that displays a histogram of a normal distribution of 1000 values with a mean
-of 5 and standard deviation of 2 and a plot of the function  h(x)=x3 in the range [0, 10] on the one set of axes.
+of 5 and standard deviation of 2 and a plot of the function h(x)=n^3 in the range [0, 10] on the one set of axes.
 
 **Reflection** - The challenge was formatting the outputted plot chart in a presentable way that is easily read. The 
-solution was to implement a number of font and plot formatting options in the code. 
+solution was to implement a number of font and plot formatting options in the code. Below is the plot that is outputted
+from the script. As can be seen it displays:
+
++ a histogram for the range of values generated showing the frequency of distributions of these values
++ a plot of the function h(x)=n^3
+
+![plottask.py Plot](Figure_1.png)
 
 [Reference 1](https://www.w3schools.com/python/numpy/numpy_random_normal.asp) last accessed 16/03/2023
 
