@@ -16,9 +16,11 @@ import matplotlib.pyplot as plt  # import the matplotlib.pyplot as plt
 
 x_axis_list = []  # variable with empty list to be populated with values for the x-axis
 np.random.seed(10)  # seed so as the random numbers do not change on each run of the script
-
+mean = 5  # variable for mean value
+standard_deviation = 2  # variable for standard deviation
+no_of_values = 1000  # variable for number of values to be generated
 # declare a variable to randomly generate 1000 values with a mean of 5 and SD of 2
-random_numbers = random.normal(loc=5, scale=2, size=1000)
+random_numbers = random.normal(loc=mean, scale=standard_deviation, size=no_of_values)
 
 
 # define a function to plot of the function  h(x)=x3 in the range [0, 10]
