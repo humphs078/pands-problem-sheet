@@ -167,4 +167,6 @@ from the script. As can be seen it displays:
 
 [Reference 4](https://www.w3schools.com/colors/colors_names.asp) last accessed 16/03/2023
 
+[Reference 5](https://www.geeksforgeeks.org/matplotlib-pyplot-legend-in-python/) last accessed 23/03/2023
+
 ---
