@@ -44,5 +44,6 @@ plt.grid(color='#8A2BE2', linewidth="0.1")  # plot a black light blue with line 
 plt.title("Week 8 Task - plottask.py", fontdict=font1)  # display title with font 1 formatting
 plt.xlabel("X Number", fontdict=font2)  # display x-axis label with font 2 formatting
 plt.ylabel("Frequency / X Number Cube", fontdict=font2)  # display y-axis with font 2 formatting
-plt.legend(["h(x)=x^3", "Distribution (mean of 5 and SD of 2)"], loc ="upper left")
+plt.legend(["h(x)=x^3", "Distribution (mean of 5 and SD of 2)"], loc="upper left")  # display legend in the upper
+# left corner
 plt.show()  # command to show plot
