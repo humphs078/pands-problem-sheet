@@ -8,6 +8,7 @@
 # Reference 2: https://www.w3schools.com/python/matplotlib_intro.asp last accessed 16/03/2023
 # Reference 3: https://www.w3schools.com/python/matplotlib_labels.asp last accessed 16/03/2023
 # Reference 4: https://www.w3schools.com/colors/colors_names.asp last accessed 16/03/2023
+# Reference 5: https://www.geeksforgeeks.org/matplotlib-pyplot-legend-in-python/ last accessed 23/03/2023
 
 import numpy as np  # import the numpy module as np
 from numpy import random  # from the numpy package import the random module
@@ -43,4 +44,5 @@ plt.grid(color='#8A2BE2', linewidth="0.1")  # plot a black light blue with line 
 plt.title("Week 8 Task - plottask.py", fontdict=font1)  # display title with font 1 formatting
 plt.xlabel("X Number", fontdict=font2)  # display x-axis label with font 2 formatting
 plt.ylabel("Frequency / X Number Cube", fontdict=font2)  # display y-axis with font 2 formatting
+plt.legend(["h(x)=x^3", "Distribution (mean of 5 and SD of 2)"], loc ="upper left")
 plt.show()  # command to show plot
