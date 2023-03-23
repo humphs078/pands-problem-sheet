@@ -158,7 +158,7 @@ from the script. As can be seen it displays:
 + a histogram for the range of values generated showing the frequency of distributions of these values
 + a plot of the function h(x)=n^3
 
-![plottask.py Plot](Figure_1.png)
+![plottask.py Plot](Figure_1.png "plottask.py Plot")
 
 [Reference 1](https://www.w3schools.com/python/numpy/numpy_random_normal.asp) last accessed 16/03/2023
 
