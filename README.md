@@ -70,9 +70,9 @@ Last accessed 11/02/2023
 
 Week 4 task - Script to read out the Collatz sequence for any positive integer the user reads in.
 
-Named after mathematician Lothar Collatz, the Collatz conjecture asks whether repeating two simple arithmetic 
-operations will eventually transform every positive integer into 1 
-[Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) (last accessed 02/03/2023).
+Named after mathematician [Lothar Collatz](https://en.wikipedia.org/wiki/Lothar_Collatz), the 
+[Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) asks whether repeating two simple arithmetic 
+operations will eventually transform every positive integer into 1.
 
 **Reflection** - The challenge was if a user read in a value of 1. No function or script could be found to mitigate 
 against this so a crude solution was implemented in lines 25 - 28 of the script. If the integer 1 is read in there is 
@@ -105,10 +105,11 @@ to translate the day of the week to out a string indicating if it is a weekday o
 ### [Task 6 - Square Root](square_root.py)
 Week 6 task - Script to return the square root of a number using Newton's method.
 
-In numerical analysis, Newton's method, also known as the Newton–Raphson method, named after Isaac Newton and
-Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots
-(or zeroes) of a real-valued function - [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_method) 
-(last accessed 02/03/2023).
+In numerical analysis, Newton's method, also known as the 
+[Newton–Raphson method](https://en.wikipedia.org/wiki/Newton%27s_method), named after 
+[Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton) and 
+[Joseph Raphson](https://en.wikipedia.org/wiki/Joseph_Raphson), is a root-finding algorithm which produces successively better approximations to the roots
+(or zeroes) of a real-valued function.
 
 **Reflection** - the precision of the output was the challenge. Precision was achieved by the use of a "for" loop
 iterating 100 times within a function.
