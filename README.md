@@ -33,10 +33,14 @@ https://blog.finxter.com/how-to-print-bold-text-in-python/ - Last accessed 23/02
 Week 2 task - script to enter two amounts in cents, add them and print out the total in human-readable format.
 The output has a euro sign in front of the total. Euros and cents are separated by a decimal point.
 
-**Reflection** - The challenge was to print euro total to 2 decimal places as a result of formatting. Solution 1 -
-http://programarcadegames.com/index.php?chapter=formatting&lang=en - last accessed 02/02/2023, was found here. That 
-solution was later commented out and the following solution https://java2blog.com/format-a-float-to-two-decimal-places/ 
-last accessed 02/03/2023, was implemented in line 24 of code.
+**Reflection** - The original solution implemented used floating point integers, however this can lead to issues when 
+performing arithmetic as base 10 decimals numbers are being converted to base 2 decimal numbers. The problem is that 
+most decimal numbers cannot be expressed exactly in binary. This is overcome by converting the class of the integer 
+read in by the user to the decimal.Decimal class from the decimal library.
+
+#### References
++ https://learnpython.com/blog/count-money-python/ - last accessed 12/04/2023
++ https://docs.python.org/3/library/decimal.html - last accessed 12/04/2023
 - - - -
 
 ### [Task 3 - Accounts](accounts.py)
