@@ -15,12 +15,13 @@
 # Last accessed 02/03/2023
 
 
-# define a function to calculate the square root of a floating point number using Newton's method
-def newton_sqrt():
-    # Declare variable to read in number by user as a string and cast to a floating point number
-    number = float(input("Please enter a floating point number: "))
+# Declare variable to read in number by user as a string and cast to a floating point number
+number = float(input("Please enter a floating point number: "))
+
+
+def newton_sqrt(num):  # define a function to calculate the square root of a floating point number using Newton's method
     # Declare variable for to crudely calculate a guess of the square root
-    approx_root = number * .5
+    approx_root = num * .5
     # For loop to carry out Newton's calculation 100 times for accuracy. 100 is an arbitrary number.
     # If the range is too low the result will be crude or less precise. If too high more processing power will
     # be used and take longer to return a result
@@ -32,4 +33,4 @@ def newton_sqrt():
     return better_approx
 
 
-print(newton_sqrt())
+print(newton_sqrt(number))
