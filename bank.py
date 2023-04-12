@@ -2,23 +2,24 @@
 # Author: Sean Humphreys
 # Script for adding cents and putting Euro - Task 2
 
-# Variable for amount 1 in cents and covert to integer
-amount_1 = int(input("Enter amount 1 in (cent) "))
+# Import the Decimal method from the decimal library. This library is specifically for working with currency and
+# eliminates the problem of representing base 10 floating point numbers as base 2
+# https://learnpython.com/blog/count-money-python/ - last accessed 12/04/2023
+# https://docs.python.org/3/library/decimal.html - last accessed 12/04/2023
+from decimal import Decimal
 
-# Variable for amount 2 in cents and convert to integer
-amount_2 = int(input("Enter amount 2 (in cent) "))
+# Variable for amount 1 in cents and convert to Decimal class
+amount_1 = Decimal(input("Enter amount 1 in (cent) "))
 
-# variable to define the sum of the 2 amounts output and convert to decimal
-euro_total = float((amount_1 + amount_2)/100)
+# Variable for amount 2 in cents and convert to Decimal class
+amount_2 = Decimal(input("Enter amount 2 (in cent) "))
 
-# line 15 of code was a problem as it prints €1.10 as €1.1 and not €1.10 as it
-# print(f"The sum of these is €{c}")
+# variable to define the sum of the 2 amounts output and convert to euro.cents
+euro_total = (amount_1 + amount_2)/100
 
-# Fixes the issue encountered in my original line of code above e.g. €1.1 prints as €1.10. Cause of issue was
-# formatting. Solution found @ Reference - http://programarcadegames.com/index.php?chapter=formatting&lang=en accessed
-# 02/02/2023.
-# print("The total amount is €""{:.2f}".format(c))
+# validation statement to check the class of the euro_total variable, commented out but left in to demonstrate that a
+# check was performed to confirm the absense of floats
+# print(type(euro_total))
 
-# Line 20 was original solution - newer format string used below. Changed on 02/03/2023
-# Reference - https://java2blog.com/format-a-float-to-two-decimal-places/ accessed 02/03/2023
-print(f"The total amount is €{euro_total:.2f}")
+# Final print statement, formatting a string
+print(f"The total amount is €{euro_total}")
