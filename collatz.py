@@ -35,7 +35,7 @@ while not valid_input:
                 else:  # otherwise execute the following lines of code
                     num = (num * 3) + 1  # calculation to declare the value of the num variable if num is odd
                 sequence.append(num)  # add the num variable to the list called sequence
-            print(f"The collatz sequence for {sequence[0]} is", *sequence[1:], sep=" ")  # once loop is closed and the
+            print(f"The collatz sequence for {sequence[0]} is", *sequence, sep=" ")  # once loop is closed and the
             # value of the num variable reaches 1 print the following statement
             valid_input = True  # close while loop
         else:
