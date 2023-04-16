@@ -129,22 +129,26 @@ argument from the command line as an argument e.g. es.py some_file.txt
 Assumptions:
 
 + The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
-in line 43 & 48 of the code 
-+ The total number of times the letter "e" appears in both upper and lower case is should be counted 
+in line 39 & 44 of the code 
++ The total number of times the letter "e" appears in both upper and lower case should be counted 
 + The .txt file will be stored in the same directory as the es.py script
 
 **Reflection** - The challenge was running the script from the command line with the desired text file being read in as
-a command line argument. This was solved by using sys library and using the sys.argv[1] in a global variable. The use 
-of global variables in functions is not encouraged however is justified in this use case.
+a command line argument. This was originally solved by using sys library and using the sys.argv[1] in a global variable.
+The use of global variables in functions is not encouraged however is justified in this use case. A different approach 
+subsequently taken using the "argparse" library. The advantage of this approach is that if the ability to parse 
+command-line arguments and options, take a variable number of parameters in a single option and provide subcommands in 
+the command line interface. Using the "argparse" if the user does not enter a filename they are prompted at the CLI to 
+run the script with the -h option or pass the filename argument to the script.
 
 #### References
-+ https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python - Last accessed 
-09/03/2023
-+ https://www.geeksforgeeks.org/python-sys-module/ - Last accessed 09/03/2023
-+ https://www.tutorialspoint.com/python/python_command_line_arguments.htm# - Last accessed 09/03/2023
-+ https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ - Last accessed 
-09/03/2023
-+ Reference 5 - https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python last accessed 16/04/2023
++ Reference 1 - https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
+last accessed 09/03/2023 
++ Reference 2 - https://www.tutorialspoint.com/python/python_command_line_arguments.htm# last accessed 09/03/2023 
++ Reference 3 - https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+last accessed 09/03/2023
++ Reference 4 - https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python last accessed 16/04/2023 
++ Reference 5 - https://realpython.com/command-line-interfaces-python-argparse/ last accessed 16/04/2023
 
 ---
 ### [Task 8 - Plotting](plottask.py)
