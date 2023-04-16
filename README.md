@@ -128,9 +128,10 @@ argument from the command line as an argument e.g. es.py some_file.txt
 
 Assumptions:
 
-+ The user wants to count the letter "e" in the given text file. The letter can be changed by changing the argument
-in line 40 of the code.
-+ The .txt file will be stored in the same directory as the es.py script.
++ The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
+in line 43 & 48 of the code 
++ The total number of times the letter "e" appears in both upper and lower case is should be counted 
++ The .txt file will be stored in the same directory as the es.py script
 
 **Reflection** - The challenge was running the script from the command line with the desired text file being read in as
 a command line argument. This was solved by using sys library and using the sys.argv[1] in a global variable. The use 
@@ -143,6 +144,7 @@ of global variables in functions is not encouraged however is justified in this 
 + https://www.tutorialspoint.com/python/python_command_line_arguments.htm# - Last accessed 09/03/2023
 + https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ - Last accessed 
 09/03/2023
++ Reference 5 - https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python last accessed 16/04/2023
 
 ---
 ### [Task 8 - Plotting](plottask.py)
