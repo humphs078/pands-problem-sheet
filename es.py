@@ -13,6 +13,8 @@
 # Reference 4 - https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 # last accessed 09/03/2023
 
+# Reference 5 - https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python last accessed 16/04/2023
+
 # Assumptions:
 # The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
 # in line 40 of the code
@@ -42,10 +44,14 @@ count = no_of_letters("e")
 # print statement for formatted string using the "count" and "file" variables
 print(f"The character \"e\" appears {count} times in the file {file}.\n")
 
+# Count the number of capital "E" occurrences
 count_2 = no_of_letters("E")
 
+# Define variable to total the number of es
 total_count = count + count_2
 
+# print statement for formatted string using the "count_2" and "file" variables
 print(f"The character \"E\" appears {count_2} times in the file {file}.\n")
 
-print(f"The letter \"e\" appears a total number of \033[1m{total_count}\033[0m times in the file {file}.\n")
+# print statement that lets the user know the total amount of es in the txt file read in
+print(f"The letter \"e\" appears a total number of\033[1;32m \033[1m{total_count}\033[0m times in the file {file}.\n")
