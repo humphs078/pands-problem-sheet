@@ -2,7 +2,6 @@
 # Author: Sean Humphreys
 # Script to count the number of times the letter "e" appears in a text file. The text file is read in as an argument
 # from the command line
-
 # Reference 1 - https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
 # last accessed 09/03/2023
 
@@ -16,7 +15,6 @@
 # Assumptions:
 # The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
 # in line 40 of the code
-# The total number of times the letter "e" appears in both upper and lower case is should be counted
 # The .txt file will be stored in the same directory as the es.py script
 
 # import the system module
@@ -25,7 +23,6 @@ import sys
 # Declare variable called "file" for argument being passed in from the command line.
 # The first argument, sys.argv[0] is the .py filename. That is why sys.argv[1] is used
 file = sys.argv[1]
-
 
 # function to read in the contents of the text file and count the number of times the letter "e" appears
 def no_of_letters(letter):  # argument letters variable. Can be changed to a different value - see line 40
@@ -37,15 +34,21 @@ def no_of_letters(letter):  # argument letters variable. Can be changed to a dif
     # set in line 40 of code
 
 
+count_letter = "e"
+
 # Declare variable to count the letter passed in the argument, in this case "e". Can be changed if required
-count = no_of_letters("e")
+count = no_of_letters(count_letter)
 # print statement for formatted string using the "count" and "file" variables
-print(f"The character \"e\" appears {count} times in the file {file}.\n")
+print(f"The character \"e\" appears {count} times in the file {file}")
 
-count_2 = no_of_letters("E")
 
-total_count = count + count_2
 
-print(f"The character \"E\" appears {count_2} times in the file {file}.\n")
+count_2 = no_of_letters(upper_letter)
 
-print(f"The letter \"e\" appears a total number of \033[1m{total_count}\033[0m times in the file {file}.\n")
+print(f"The character \"E\" appears {count_2} times in the file {file}")
+
+total_count = int(count) + int(count_2)
+
+print()
+
+print(f"The total numer of occurrences of the letter \"e\" is {total_count}")
