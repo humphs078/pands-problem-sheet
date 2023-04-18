@@ -19,40 +19,38 @@
 
 # Assumptions:
 # The user only ever wants to count the letter "e" in the given text file. This can be changed by changing the argument
-# in line 40 of the code
+# in line 46 of the code
 # The total number of times the letter "e" appears in both upper and lower case should be counted
 # The .txt file will be stored in the same directory as the es.py script
 
 # import the system module
 import sys
 
-# Declare variable called "file" for argument being passed in from the command line.
-# The first argument, sys.argv[0] is the .py filename. That is why sys.argv[1] is used
-# file = sys.argv[1]
-
-# use try & except to catch errors. The except block is to catch the error and raise an exception alerting the user at
-# the CLI of the error and possible action  to take to resolve
+# Use try & except to catch errors. The except block is to catch the error and raise an exception alerting the user at
+# the CLI of the error and possible action to take to resolve
 try:
+    # Declare variable called "file" for argument being passed in from the command line. The first argument, sys.argv[0]
+    # is the .py filename. That is why sys.argv[1] is used
     file = sys.argv[1]
 
     # function to read in the contents of the text file and count the number of times the letter
     # "e" appears
-    def no_of_letters(letter):  # argument letters variable. Can be changed to a different value - see line 40
+    def no_of_letters(letter):  # argument letters variable. Can be changed to a different value - see line 46
         with open(sys.argv[1], 'r') as f:   # open the file passed in as an argument from the command line in read only
             # mode as variable f
             contents = f.read()     # declare a variable called "contents" that reads in the contents of the file
-        # in variable "f" in line 36
-        return contents.count(letter)   # return the count of the letter passed in the argument of the function this
-        # can be set in line 40 of code
+        # in variable "f" in line 39
+        return contents.count(letter)   # return the count of the letter passed in the argument of the function
     # Declare variable to count the letter passed in the argument, in this case "e". Can be changed if required
     count = no_of_letters("e")
     # print statement for formatted string using the "count" and "file" variables
     print(f"The character \"e\" appears {count} times in the file {file}.\n")
 
-    count_2 = no_of_letters("E")
+    count_2 = no_of_letters("E")  # use function to count the number of capital Es
 
-    total_count = count + count_2
+    total_count = count + count_2  # variable to store the total number of e's
 
+    # print statement to inform the user of the number of capital Es
     print(f"The character \"E\" appears {count_2} times in the file {file}.\n")
     # print statement that lets the user know the total amount of es in the txt file read in
     print(
