@@ -136,9 +136,9 @@ in line 45 & 49 of the code
 **Reflection** - The challenge was running the script from the command line with the desired text file being read in 
 as a command line argument. This was solved by using sys library and using the sys.argv[1] in a global variable. The 
 use of global variables in functions is not encouraged however is justified in this use case. Try and except blocks were
-used for exception handling. Should the user omit the filename as an argument from the command line the error is caught 
-and the is directed to enter a filename. If the user attempts to execute the script and pass a filename that is not 
-valid or not located in the same directory as the script the error is caught and the user is presented with guidance on 
+used for exception handling. Should the user omit the filename as an argument from the command line, the error is caught 
+and the user is directed to enter a filename. If the user attempts to execute the script and pass a filename that is not 
+valid or not located in the same directory as the script, the error is caught and the user is presented with guidance on 
 how to execute the script properly.
 
 #### References
